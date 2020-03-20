@@ -9,7 +9,7 @@ import gql from 'graphql-tag';
 
 const message_sub = gql`
    subscription messageAdded {
-    subscribeToDomainCrawlEvents(domainUrl: "https://www.techseekr.io/") {
+    subscribeToDomainCrawlEvents(domainUrl: "http://deep-crawl-test-host.s3-website-eu-west-1.amazonaws.com/") {
       url
       status
       totalScraped
