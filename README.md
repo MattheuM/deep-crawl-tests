@@ -11,6 +11,10 @@ Deep crawl test
 
     yarn start
 
+**Tests**
+
+    yarn test
+
 # Endpoints
 
 `/graphql`
