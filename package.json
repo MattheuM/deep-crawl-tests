@@ -1,0 +1,55 @@
+{
+  "name": "deep-crawl-test",
+  "version": "1.0.0",
+  "description": "deep crawl test",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon",
+    "inspect": "nodemon --inspect src/app.ts",
+    "test": "jest --passWithNoTests",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts'",
+    "tslint:fix": "tslint 'src/**/*.ts' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "luxtripper@vs-ssh.visualstudio.com:v3/luxtripper/Luxtripper/boiler-plate-microservice"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "typescript",
+    "node",
+    "express"
+  ],
+  "author": "Mattheu McBarnett",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "apollo-server-express": "^2.11.0",
+    "async": "^3.2.0",
+    "express": "^4.16.2",
+    "graphql-subscriptions": "^1.1.0",
+    "puppeteer": "^2.1.1",
+    "reflect-metadata": "^0.1.12",
+    "tslint": "^6.1.0",
+    "type-graphql": "^0.17.6"
+  },
+  "devDependencies": {
+    "@deepcrawl/tslint-config": "https://github.com/deepcrawl/tslint-config-deepcrawl",
+    "@types/async": "^3.0.8",
+    "@types/express": "^4.16.0",
+    "@types/jest": "^23.3.8",
+    "@types/node": "^10.14.8",
+    "@types/puppeteer": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "jest": "24.9.0",
+    "jest-puppeteer": "^4.4.0",
+    "nodemon": "^1.19.1",
+    "ts-jest": "^24.0.0",
+    "ts-node": "^7.0.1",
+    "expect-puppeteer": "^4.4.0",
+    "typescript": "3.8.2"
+  },
+  "license": "UNLICENSED"
+}
