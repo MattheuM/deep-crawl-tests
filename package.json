@@ -1,5 +1,5 @@
 {
-  "name": "deep-crawl-test",
+  "name": "deep-crawl-tests",
   "version": "1.0.0",
   "description": "deep crawl test",
   "main": "src/app.ts",
@@ -10,10 +10,6 @@
     "test": "jest --passWithNoTests",
     "tslint": "tslint -c tslint.json 'src/**/*.ts'",
     "tslint:fix": "tslint 'src/**/*.ts' --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "luxtripper@vs-ssh.visualstudio.com:v3/luxtripper/Luxtripper/boiler-plate-microservice"
   },
   "keywords": [
     "js",
